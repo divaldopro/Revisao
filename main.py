@@ -14,3 +14,7 @@ async def funcaoteste():    # função assincrona
 @app.get("/teste2")   #retornar mensagem 127.0.0.1:8000/teste2
 async def funcaoteste2():    # função assincrona
     return {"teste": "deu certo teste 2"}
+
+@app.get("/teste2")   #retornar mensagem 127.0.0.1:8000/teste3
+async def funcaoteste2():    # função assincrona
+    return {"teste": "deu certo teste 3"}
